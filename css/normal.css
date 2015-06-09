@@ -697,9 +697,9 @@ html { overflow-y: scroll; }
 
          .w--nav-link-open{display:block} 
 
-         .w-nav-overlay{position:absolute;overflow:visible;display:block;top:100%;left:0;right:0;width:100%}
+         .w-nav-overlay{position:absolute;overflow:hidden;display:none;top:100%;left:0;right:0;width:100%}
 
-         .w-nav-overlay .w--nav-menu-open{z-index:1000;top:0} 
+         .w-nav-overlay .w--nav-menu-open{top:0} 
 
          .w-nav[data-animation="over-left"] 
 
