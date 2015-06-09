@@ -21,6 +21,12 @@
     <!-- START AJAX WEBFONTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <!-- END AJAX WEBFONTS -->
+    <!-- START MOBILE DETECT -->
+    <script>if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';</script>
+    <!-- END MOBILE DETECT -->
+    <!-- START FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- EDN FAVICON -->
 </head>
 <body>
     <div tabindex="1000" style="overflow-y: auto;" id="boxscroll">
@@ -33,7 +39,7 @@
                         <!-- START COLUMN 3 -->
                         <div class="w-col w-col-3 logo">
                             <!-- START LOGO -->
-                            <a href="#"><!--<img class="logo" src="images/logo.png" alt="FLAT ASPHALT">--></a>
+                            <a href="#"><img class="logo" src="images/logo.png" alt="FLAT ASPHALT"></a>
                             <!-- END LOGO -->
                         </div><!-- END COLUMN 3 -->
                         <!-- START COLUMN 9 -->
@@ -104,159 +110,161 @@
 
         </div>
 
-        <div class="row-back2" data-stellar-background-ratio="0.5">
-            <div class="w-container wrap-normal">
-                <div class="center">
-                    <h2>Projects</h2>
-                </div>
-                <div class="center w-col w-col-3 wp4">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="Web Development" title="Web Development" href="images/portfolio/etgbig.png">
-                                <img class="thumbnail-img" src="images/portfolio/etgbig.png" alt="Elitetravelguru.com">
-                                <span>
-                                    <h3 class="team-heading">Web Site Development</h3>
-                                    <p class="team-designation">www.elitetravelguru.com</p>
-                                    <p class="team-des">Travel website with quote form and lead capture database. Asp.net, CSS, HTML, C#, Ado.net SQL Server, Twitter bootstrap, Javascript, Ajax, jQuery</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="http://www.elitetravelguru.com" title="EliteTravelGuru.com">elitetravelguru.com</a>
-                                <a class="social-icons" href="https://github.com/HananeMoshe/etgcurrent.git" title="Git"><i class="githubelegance-icons-"></i></a>
+        <div class="parallax-back" data-stellar-background-ratio="0.5">
+            <div class="opcaity">
+                <div class="w-container wrap">
+                    <div class="center">
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="center w-col w-col-3 wp4">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="Web Development" title="Web Development" href="images/portfolio/etgbigpop.png">
+                                    <img class="thumbnail-img" src="images/portfolio/etgbig.png" alt="Elitetravelguru.com">
+                                    <span>
+                                        <h3 class="team-heading">Web Site Development</h3>
+                                        <p class="team-designation">www.elitetravelguru.com</p>
+                                        <p class="team-des">Travel website with quote form and lead capture database. Asp.net, CSS, HTML, C#, Ado.net SQL Server, Twitter bootstrap, Javascript, Ajax, jQuery</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="http://www.elitetravelguru.com" title="EliteTravelGuru.com">elitetravelguru.com</a>
+                                    <a class="social-icons" href="https://github.com/HananeMoshe/etgcurrent.git" title="Git"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-05s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="" web development asp.net mvc5" title="Web Development asp.net mvc5" href="images/portfolio/etgmvcparallaxpop.png">
+                                    <img class="thumbnail-img" src="images/portfolio/etgmvcparallax.png" alt="MVC & Parallax">
+                                    <span>
+                                        <h3 class="team-heading">Asp.net & MVC5</h3>
+                                        <p class="team-designation">Travel Web Site</p>
+                                        <p class="team-des">Re-built site using the Model-View-Controller architecture. Added blog & parallax. Asp.net MVC5, Entity Framework 6, Parallax, HTML5, CSS3, Blogengine.net, Bootsrap, jQuery, Javascript.</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" title="Travel Guru MVC5">Travel Guru MVC5</a>
+                                    <a class="social-icons" href="https://github.com/HananeMoshe/TravelGuru-MVC5.git" titlle="Git"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-1s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="responsive" title="discountedflightguru.com" href="images/portfolio/dfgbig.png">
+                                    <img class="thumbnail-img" src="images/portfolio/dfgbig.png" alt="discountedflightguru.com">
+                                    <span>
+                                        <h3 class="team-heading">Asp.net web-forms</h3>
+                                        <p class="team-designation">Travel Website</p>
+                                        <p class="team-des">One of my first travel sites built using asp.net webforms. Built a fully functional lead capture databse with ado.net, sql server & C#.</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" title="Discounted Flight Guru">Discounted Flight Guru</a>
+                                    <a class="social-icons" href="https://github.com/HananeMoshe/Discountedflightguru.com.git" title="Git"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-1-5s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="API" title="Neighborhood Map" href="images/portfolio/Neighborhood-Map.png">
+                                    <img class="thumbnail-img" src="images/portfolio/Neighborhood-Map.png" alt="Neighborhood-Map">
+                                    <span>
+                                        <h3 class="team-heading">Neighborhood-Map</h3>
+                                        <p class="team-designation">Consume API's</p>
+                                        <p class="team-des">Neighborhood map project built using Model-View-ViewModel architecture & Knockout.js. Used various API's including Google Maps & Google Places</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" title="Neighborhood-Map">Neighborhood-Map</a>
+                                    <a class="social-icons" href="https://github.com/HananeMoshe/neighborhood-map.git" title="Git"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-2s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/frogger.png">
+                                    <img class="thumbnail-img" src="images/portfolio/frogger.png" alt="team1">
+                                    <span>
+                                        <h3 class="team-heading">James Dylan</h3>
+                                        <p class="team-designation">CREATIVE DIRECTOR</p>
+                                        <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" titlle="Twitter">Frogger</a>
+                                    <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-2-5s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/catcliker.png">
+                                    <img class="thumbnail-img" src="images/portfolio/catclicker.png" alt="team1">
+                                    <span>
+                                        <h3 class="team-heading">James Dylan</h3>
+                                        <p class="team-designation">CREATIVE DIRECTOR</p>
+                                        <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" titlle="Twitter">Cat Clicker</a>
+                                    <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-3s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/feedreader.png">
+                                    <img class="thumbnail-img" src="images/portfolio/feedreader.png" alt="team1">
+                                    <span>
+                                        <h3 class="team-heading">James Dylan</h3>
+                                        <p class="team-designation">CREATIVE DIRECTOR</p>
+                                        <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" titlle="Twitter">Feed Reader</a>
+                                    <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center w-col w-col-3 wp4 delay-3-5s">
+                        <div class="team-album">
+                            <div class="tumbnail">
+                                <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/TodoMVC.png">
+                                    <img class="thumbnail-img" src="images/portfolio/TodoMVC.png" alt="team1">
+                                    <span>
+                                        <h3 class="team-heading">James Dylan</h3>
+                                        <p class="team-designation">CREATIVE DIRECTOR</p>
+                                        <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
+                                    </span>
+                                </a>
+                                <div class="team-social">
+                                    <a class="social-icons" href="" titlle="Twitter">ToDo-MVC</a>
+                                    <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="center w-col w-col-3 wp4 delay-05s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="" web development asp.net mvc5" title="Web Development asp.net mvc5" href="images/portfolio/etgmvcparallax.png">
-                                <img class="thumbnail-img" src="images/portfolio/etgmvcparallax.png" alt="MVC & Parallax">
-                                <span>
-                                    <h3 class="team-heading">Asp.net & MVC5</h3>
-                                    <p class="team-designation">Travel Web Site</p>
-                                    <p class="team-des">Re-built site using the Model-View-Controller architecture. Added blog & parallax. Asp.net MVC5, Entity Framework 6, Parallax, HTML5, CSS3, Blogengine.net, Bootsrap, jQuery, Javascript.</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" title="Travel Guru MVC5">Travel Guru MVC5</a>
-                                <a class="social-icons" href="https://github.com/HananeMoshe/TravelGuru-MVC5.git" titlle="Git"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center w-col w-col-3 wp4 delay-1s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="responsive" title="discountedflightguru.com" href="images/portfolio/dfgbig.png">
-                                <img class="thumbnail-img" src="images/portfolio/dfgbig.png" alt="discountedflightguru.com">
-                                <span>
-                                    <h3 class="team-heading">Asp.net web-forms</h3>
-                                    <p class="team-designation">Travel Website</p>
-                                    <p class="team-des">One of my first travel sites built using asp.net webforms. Built a fully functional lead capture databse with ado.net, sql server & C#.</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" title="Discounted Flight Guru">Discounted Flight Guru</a>
-                                <a class="social-icons" href="https://github.com/HananeMoshe/Discountedflightguru.com.git" title="Git"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center w-col w-col-3 wp4 delay-1-5s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="API" title="Neighborhood Map" href="images/portfolio/Neighborhood-Map.png">
-                                <img class="thumbnail-img" src="images/portfolio/Neighborhood-Map.png" alt="Neighborhood-Map">
-                                <span>
-                                    <h3 class="team-heading">Neighborhood-Map</h3>
-                                    <p class="team-designation">Consume API's</p>
-                                    <p class="team-des">Neighborhood map project built using Model-View-ViewModel architecture & Knockout.js. Used various API's including Google Maps & Google Places</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" title="Neighborhood-Map">Neighborhood-Map</a>
-                                <a class="social-icons" href="https://github.com/HananeMoshe/neighborhood-map.git" title="Git"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center w-col w-col-3 wp4 delay-2s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/frogger.png">
-                                <img class="thumbnail-img" src="images/portfolio/frogger.png" alt="team1">
-                                <span>
-                                    <h3 class="team-heading">James Dylan</h3>
-                                    <p class="team-designation">CREATIVE DIRECTOR</p>
-                                    <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" titlle="Twitter">Frogger</a>
-                                <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center w-col w-col-3 wp4 delay-2-5s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/catcliker.png">
-                                <img class="thumbnail-img" src="images/portfolio/catclicker.png" alt="team1">
-                                <span>
-                                    <h3 class="team-heading">James Dylan</h3>
-                                    <p class="team-designation">CREATIVE DIRECTOR</p>
-                                    <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" titlle="Twitter">Cat Clicker</a>
-                                <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center w-col w-col-3 wp4 delay-3s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/feedreader.png">
-                                <img class="thumbnail-img" src="images/portfolio/feedreader.png" alt="team1">
-                                <span>
-                                    <h3 class="team-heading">James Dylan</h3>
-                                    <p class="team-designation">CREATIVE DIRECTOR</p>
-                                    <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" titlle="Twitter">Feed Reader</a>
-                                <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center w-col w-col-3 wp4 delay-3-5s">
-                    <div class="team-album">
-                        <div class="tumbnail">
-                            <a class="image-popup-no-margins" alt="responsive" title="Responsive Design" href="images/portfolio/TodoMVC.png">
-                                <img class="thumbnail-img" src="images/portfolio/TodoMVC.png" alt="team1">
-                                <span>
-                                    <h3 class="team-heading">James Dylan</h3>
-                                    <p class="team-designation">CREATIVE DIRECTOR</p>
-                                    <p class="team-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellat possimus laboriosam et.</p>
-                                </span>
-                            </a>
-                            <div class="team-social">
-                                <a class="social-icons" href="" titlle="Twitter">ToDo-MVC</a>
-                                <a class="social-icons" href="" titlle="Facebook"><i class="githubelegance-icons-"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
         </div>
-
     </div>
     <div id="resume">
 
@@ -339,7 +347,6 @@
                                 <h3 style="margin-bottom:0">SOFTWARE</h3>
                             </div>
                             <div valign=top style='padding:2.9pt 5.75pt 2.9pt 5.75pt; text-align:left'>
-                                <p class=MsoNormal>&nbsp;</p>
                                 <p class=MsoNormal>Windows </p>
                                 <p class=MsoNormal>Linux</p>
                                 <p class=MsoNormal>Adobe Photoshop</p>
@@ -370,6 +377,7 @@
                                 </p>
                             </div>
                         </div>
+                        <br/>
                         <div class="left wp7 delay-05s">
                             <div style='background:#2E74B5;padding:2.9pt 5.75pt 2.9pt 5.75pt;'>
                                 <h3 style="margin-bottom:0">Education</h3>
@@ -386,6 +394,7 @@
                                 <p class=MsoNormal><a href="www.udacity.com">www.udacity.com</a></p>
                             </div>
                         </div>
+                        <br/>
                         <div class="left wp7 delay-1s">
                             <div style='background:#2E74B5;padding:2.9pt 5.75pt 2.9pt 5.75pt;'>
                                 <h3 style="margin-bottom:0">Projects</h3>
@@ -578,7 +587,6 @@
 
                     <div class="center">
                         <h1 class="underline">GET IN TOUCH</h1>
-                        <p>Feel free to contact us at any time, nam liber tempor cum <br />soluta nobis eleifend option congue nihil.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br />Aenean commodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et <br />magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
                         <div class="social-footter">
                             <i class="facebookelegance-icons-"></i>
                             <i class="twitter-birdelegance-icons-"></i>
@@ -634,7 +642,9 @@
         </div>
 
     </div>
-
+    <div class="footer row-back">
+        <div class="w-container wrap-normal center">© <strong>Hanane Moshe</strong> - <span class="green">Front-End</span> Web Developer </div>
+    </div>
     <!-- START JQUERY PLUGINS LOAD -->
     <script src="js/jquery.js"></script>
     <script src="js/modernizr.js"></script>

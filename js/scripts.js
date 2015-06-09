@@ -87,19 +87,41 @@ $(document).ready(function() {
         // Headhesive destroy
         // banner.destroy();
 
+        var isMobile = {
+            Android: function () {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function () {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function () {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function () {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function () {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function () {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };
+        if (!isMobile.any()) {
+            $('.parallax-back').stellar();
+            $('.header-parallax').stellar();
 
-$('.parallax-back').stellar();
-$('.header-parallax').stellar();
 
+            $(function () {
 
-    $(function(){
+                $.stellar({
 
-      $.stellar({
+                    horizontalScrolling: false,
 
-        horizontalScrolling: false,
+                    verticalOffset: 40
 
-        verticalOffset: 40
+                });
 
-      });
+            });
+        }
 
-    });

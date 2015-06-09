@@ -190,14 +190,11 @@ h6 {
 }
 
 .header-parallax {
-    background: url(../images/header/header-parallax6.jpg);
+    background: url(../images/header/header-parallax9.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
-}
-
-.header-parallax {
-    height: 580px;
+    height: 680px;
 }
 
 .opcaity {
@@ -387,7 +384,7 @@ h1.underline-dotted, h2.underline-dotted, h3.underline-dotted, h4.underline-dott
 
 .banner {
     position: relative;
-    overflow: auto;
+    overflow: visible;
 }
 
     .banner li {
@@ -401,7 +398,7 @@ h1.underline-dotted, h2.underline-dotted, h3.underline-dotted, h4.underline-dott
 .banner {
     position: relative;
     width: 100% !important;
-    overflow: auto;
+    overflow: visible;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
@@ -458,7 +455,7 @@ h1.underline-dotted, h2.underline-dotted, h3.underline-dotted, h4.underline-dott
     position: absolute;
     width: 100%;
     top: 80px;
-    height: 580px;
+    height: 680px;
 }
 
 .fixed-content {
@@ -679,7 +676,7 @@ p.MsoNormal, li.MsoNormal, div.MsoNormal {
 }
 
 .resume {
-    width: 50%;
+    max-width: 9000px ;
     margin: 0 auto;
 }
 
