@@ -2140,41 +2140,41 @@ elegance.define('elegance-maps', function ($, _) {
 
  */
 
-elegance.define('elegance-gplus', function ($) {
+//elegance.define('elegance-gplus', function ($) {
 
-  'use strict';
-
-  
-
-  var $doc = $(document);
-
-  var api = {};
+//  'use strict';
 
   
 
-  api.ready = function () {
+//  var $doc = $(document);
 
-    // Load Google+ API on the front-end
-
-    if (!elegance.env()) init();
-
-  };
+//  var api = {};
 
   
 
-  function init() {
+//  api.ready = function () {
 
-    $doc.find('.w-widget-gplus') && elegance.script('https://apis.google.com/js/plusone.js');
+//    // Load Google+ API on the front-end
 
-  }
+//    if (!elegance.env()) init();
+
+//  };
 
   
 
-  // Export module
+//  function init() {
 
-  return api;
+//    $doc.find('.w-widget-gplus') && elegance.script('https://apis.google.com/js/plusone.js');
 
-});
+//  }
+
+  
+
+//  // Export module
+
+//  return api;
+
+//});
 
 /**
 
