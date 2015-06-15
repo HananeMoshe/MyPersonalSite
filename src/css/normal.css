@@ -557,7 +557,7 @@ html { overflow-y: scroll; }
 
    .w-hidden-tiny{display:none !important}
 
-    .w-col{width:100%; margin: auto 0}
+    .w-col{width:100%}
 
     .w-col-tiny-3{width:25%} 
 
@@ -813,9 +813,9 @@ html { overflow-y: scroll; }
 
     position: relative;
 
-    left: 0px;
+    left: 500px;
 
-    top: 0px;
+    top: 100px;
 
     overflow-x: visible;
 
@@ -832,7 +832,7 @@ html { overflow-y: scroll; }
   .fixed-header {position: relative;}
 
   .slidersection {padding-top: 0px;}
-  .row-back2 {background:none;}
+
   .btn-ex-two {margin-top: 53px;margin-left: 0;}
 
   #clients .clients-wrap {width: 55% !important; height: 50px;}

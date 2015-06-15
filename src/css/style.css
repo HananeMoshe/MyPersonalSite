@@ -772,7 +772,7 @@ margin-top: -25px;
         padding: 1em;
         top: 0;
         right: 0;
-        bottom: 105px;
+        bottom: 80px;
         text-align: center;
         line-height: 150px;
         color: rgba(255,255,255,0.8);
@@ -829,7 +829,7 @@ margin-top: -25px;
 .tumbnail {
     position: relative;
     background: #34495E;
-    width: 90%;
+    width: 100%;
     font-size: 12px;
 }
 
