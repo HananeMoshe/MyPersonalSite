@@ -829,6 +829,8 @@ margin-top: -25px;
 .tumbnail {
     position: relative;
     background: #34495E;
+    width: 90%;
+    font-size: 12px;
 }
 
 .thumbnail-img {

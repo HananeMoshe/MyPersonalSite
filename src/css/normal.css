@@ -557,7 +557,7 @@ html { overflow-y: scroll; }
 
    .w-hidden-tiny{display:none !important}
 
-    .w-col{width:100%}
+    .w-col{width:100%; margin: auto 0}
 
     .w-col-tiny-3{width:25%} 
 
